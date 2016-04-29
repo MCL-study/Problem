@@ -1,4 +1,6 @@
-public class Solution_david {
+package source001;
+
+public class Solution{
 
     public static void main(String[] args){
         int a=100;

@@ -1,16 +1,19 @@
 package source001;
 
+import java.util.Scanner;
+
 public class Solution{
 
     public static void main(String[] args){
-        int a=100;
-        int b=50;
-        System.out.println("A : "+a+" B : "+b);
+        Scanner in = new Scanner(System.in);
 
-        int temp = a;
-        a = b;
-        b = temp;
+        System.out.print("10자리 숫자를 입력하세요 : ");
+        String phoneNumber = in.next();
 
-        System.out.println("A : "+a+" B : "+b);
+        String sub1 = phoneNumber.substring(0, 3);
+        String sub2 = phoneNumber.substring(3, 6);
+        String sub3 = phoneNumber.substring(6);
+
+        System.out.print(sub1 +") " + sub2 + " - " + sub3);
     }
 }

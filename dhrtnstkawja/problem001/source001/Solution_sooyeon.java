@@ -11,7 +11,7 @@ public class Solution_sooyeon
     {
         Scanner sc=new Scanner(System.in);
 
-        System.out.print("¿øÇÏ´Â ´ÜÀ» ÀÔ·ÂÇÏ¼¼¿ä:");
+        System.out.print("ì›í•˜ëŠ” ë‹¨ì„ ì…ë ¥í•˜ì„¸ìš”:");
         int dan=sc.nextInt();
 
         for(int i=1; i<=9; i++)

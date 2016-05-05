@@ -2,7 +2,7 @@ package random;
 
 import java.util.*;
 
-public class randomgame {
+public class dongwook_randomgame {
 
 	public static void main(String[] args)
 	{

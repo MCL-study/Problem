@@ -27,6 +27,9 @@ void main()
 	int freq = 15;
 	int frame = 200;
 
+	//콘솔창 크기 조절
+	system("mode con: cols=86 lines=28");
+
 	gotoxy(1, 23);
 	printf("매트릭스 흉내내기. 상하:속도 증감, 좌우:빈도 증감, ESC:종료");
 
